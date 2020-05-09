@@ -32,10 +32,10 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 //* Define constants
-define( 'PWP_VERSION', 	'1.0' );
-define( 'PWP_FILE', 	trailingslashit( dirname( __FILE__ ) ) . 'paulc-edit-oxybuilder.php' );
-define( 'PWP_DIR', 	plugin_dir_path( PWP_FILE ) );
-define( 'PWP_URL', 	plugins_url( '/', PWP_FILE ) );
+define( 'POXYB_VERSION', 	'1.0' );
+define( 'POXYB_FILE', 		trailingslashit( dirname( __FILE__ ) ) . 'paulc-edit-oxybuilder.php' );
+define( 'POXYB_DIR', 		plugin_dir_path( POXYB_FILE ) );
+define( 'POXYB_URL', 		plugins_url( '/', POXYB_FILE ) );
 
 //* Activate plugin
 register_activation_hook( __FILE__, 'pauloxyb_activate' );
@@ -91,5 +91,5 @@ function pauloxyb_admin_notice_message()
 function pauloxyb_load_textdomain()
 {
 	//* Load textdomain for translation 
-	load_plugin_textdomain( 'paulc-edit-oxybuilder', false, basename( PWP_DIR ) . '/languages' );
+	load_plugin_textdomain( 'paulc-edit-oxybuilder', false, basename( POXYB_DIR ) . '/languages' );
 }
