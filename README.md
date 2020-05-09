@@ -1,10 +1,10 @@
 # Customize Oxygen Builder
 A helper plugin to customize the Oxygen Builder site
 
-# assets 
+### assets 
 - This folder will contain the CSS and JS files which will use on the site
 
-# elements 
+### elements 
 - You will put the custom elements folders to inside this folder
 
 # Installation
