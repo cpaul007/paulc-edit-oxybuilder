@@ -7,7 +7,7 @@
  * Plugin Name: 	Customize Oxygen Builder
  * Plugin URI: 		https://www.paulchinmoy.com
  * Description: 	A helper plugin to customize the Oxygen Builder site
- * Author: 			Paul Chinmoy
+ * Author: 		Paul Chinmoy
  * Author URI: 		https://www.paulchinmoy.com
  *
  * Version: 		1.0
@@ -34,14 +34,14 @@ if ( !defined( 'ABSPATH' ) ) {
 //* Define constants
 define( 'PWP_VERSION', 	'1.0' );
 define( 'PWP_FILE', 	trailingslashit( dirname( __FILE__ ) ) . 'paulc-edit-oxybuilder.php' );
-define( 'PWP_DIR', 		plugin_dir_path( PWP_FILE ) );
-define( 'PWP_URL', 		plugins_url( '/', PWP_FILE ) );
+define( 'PWP_DIR', 	plugin_dir_path( PWP_FILE ) );
+define( 'PWP_URL', 	plugins_url( '/', PWP_FILE ) );
 
 //* Activate plugin
 register_activation_hook( __FILE__, 'pauloxyb_activate' );
 
 add_action( 'plugins_loaded', 		'pauloxyb_load_textdomain' );
-add_action( 'admin_init', 			'pauloxyb_activate' );
+add_action( 'admin_init', 		'pauloxyb_activate' );
 add_action( 'switch_theme', 		'pauloxyb_activate' );
 
 /**
@@ -53,7 +53,7 @@ function pauloxyb_activate()
 	{
 		//* Deactivate ourself
 		deactivate_plugins( __FILE__ );
-		add_action( 'admin_notices', 			'pauloxyb_admin_notice_message' );
+		add_action( 'admin_notices', 		'pauloxyb_admin_notice_message' );
 		add_action( 'network_admin_notices', 	'pauloxyb_admin_notice_message' );
 		return;	
 	}
