@@ -8,7 +8,7 @@ A helper plugin to customize the Oxygen Builder site. Originally Oxygen Builder 
 - You will put the custom elements folders to inside this folder
 
 ### includes
-- There have a helpers.php file. You would write your all custom codes inside that file
+- There have a **helpers.php file**. You would write your all custom codes inside that file
 
 # Installation
 * Click on the Download ZIP button at the right to download the plugin.
@@ -19,7 +19,7 @@ A helper plugin to customize the Oxygen Builder site. Originally Oxygen Builder 
 
 ### How shall I edit the files?
 
-You can use the FTP/SFTP or CPanel -> File Manager tools. You can also use WP File Manager plugin. Therefore you can direstly add/edit/delete the files and folders from your Dashboard. Keep in mind that you would delete this plugin after completing your work.
+You can use the FTP/SFTP or CPanel -> File Manager tools. You can also use the **WP File Manager plugin**. Therefore you can directly add/edit/delete the files and folders from your Dashboard. Keep in mind that you would delete this plugin after completing your work.
 
 # Changelog
 ## 1.0.0
