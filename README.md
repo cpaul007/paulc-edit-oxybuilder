@@ -1,5 +1,5 @@
 # Customize Oxygen Builder
-A helper plugin to customize the Oxygen Builder site. Originally Oxygen Builder is not using the WP Themes. Therefore you can't use the functions.php file and add the custom PHP codes. Inside the builder has the CODE BLOCK elements and write the PHP code, but sometimes it will not be suitable option (when you are adding the bunch of codes, customizing the plugin's templates etc).
+A helper plugin to customize the Oxygen Builder site. Originally Oxygen Builder is not using the WP Themes. Therefore you can't use the functions.php file and add the custom PHP codes. Inside the builder has the **CODE BLOCK** elements and write the PHP code, but sometimes it will not be suitable option (when you are adding the bunch of codes, customizing the plugin's templates etc).
 
 ### assets 
 - This folder will contain the CSS and JS files which will use on the site
