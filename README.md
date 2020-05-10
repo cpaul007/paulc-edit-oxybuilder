@@ -15,6 +15,12 @@ A helper plugin to customize the Oxygen Builder site. Originally Oxygen Builder 
 * Go to Plugins > Add New in your WordPress admin. Click on Upload Plugin and browse for the zip file.
 * Activate the plugin.
 
+# FAQs
+
+### How shall I edit the files?
+
+You can use the FTP/SFTP or CPanel -> File Manager tools. You can also use WP File Manager plugin. Therefore you can direstly add/edit/delete the files and folders from your Dashboard. Keep in mind that you would delete this plugin after completing your work.
+
 # Changelog
 ## 1.0.0
 Initial Release
