@@ -38,9 +38,9 @@ define( 'POXYB_DIR', 		plugin_dir_path( POXYB_FILE ) );
 define( 'POXYB_URL', 		plugins_url( '/', POXYB_FILE ) );
 
 //* Activate plugin
-register_activation_hook( __FILE__, 'pauloxyb_activate' );
+register_activation_hook( __FILE__, 	'pauloxyb_activate' );
 
-add_action( 'plugins_loaded', 		'pauloxyb_load_textdomain' );
+add_action( 'plugins_loaded', 		'pauloxyb_init' );
 add_action( 'admin_init', 		'pauloxyb_activate' );
 add_action( 'switch_theme', 		'pauloxyb_activate' );
 
@@ -86,10 +86,17 @@ function pauloxyb_admin_notice_message()
 
 
 /**
- * Loads text domain.
+ * Doing the custom activity here
  */ 
-function pauloxyb_load_textdomain()
+function pauloxyb_init()
 {
 	//* Load textdomain for translation 
 	load_plugin_textdomain( 'paulc-edit-oxybuilder', false, basename( POXYB_DIR ) . '/languages' );
+
+
+	/******************************************
+	 * ADD YOUR CUSTOM CODES INSIDE THIS FILE
+	******************************************/
+
+	require_once( POXYB_DIR . '/includes/helpers.php' );
 }
