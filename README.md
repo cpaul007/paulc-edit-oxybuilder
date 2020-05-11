@@ -21,6 +21,10 @@ A helper plugin to customize the Oxygen Builder site. Originally Oxygen Builder 
 
 You can use the FTP/SFTP or CPanel -> File Manager tools. You can also use the **WP File Manager plugin**. Therefore you can directly add/edit/delete the files and folders from your Dashboard. Keep in mind that you would delete this plugin after completing your work.
 
+### How to use?
+
+[Watch the video](https://www.youtube.com/embed/ulGKSYnQ9jU)
+
 # Changelog
 ## 1.0.0
 Initial Release
