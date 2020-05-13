@@ -49,7 +49,7 @@ add_action( 'switch_theme', 		'pauloxyb_activate' );
  */ 
 function pauloxyb_activate()
 {
-	if ( ! class_exists('OxygenElement') )
+	if ( ! class_exists('OxyEl') )
 	{
 		//* Deactivate ourself
 		deactivate_plugins( __FILE__ );
@@ -90,6 +90,9 @@ function pauloxyb_admin_notice_message()
  */ 
 function pauloxyb_init()
 {
+	if ( ! class_exists('OxyEl') )
+		return;
+	
 	//* Load textdomain for translation 
 	load_plugin_textdomain( 'paulc-edit-oxybuilder', false, basename( POXYB_DIR ) . '/languages' );
 
