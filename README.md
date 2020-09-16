@@ -1,5 +1,7 @@
-# Customize Oxygen Builder
-A helper plugin to customize the Oxygen Builder site.  Oxygen Builder's setup does not work with WordPress Themes. It bypasses them and uses its own theme so to speak Therefore you can't use the `functions.php` file and add the custom PHP code. Inside the builder there are **CODE BLOCK** elements in which you can write PHP code, but sometimes it will not be a suitable option (when you are adding the bunch of code, are customizing the plugin's templates etc).
+#  Oxygen Builder Customizer Plugin
+A helper plugin to customize the Oxygen Builder site.  Oxygen Builder's setup does not work with WordPress Themes. It bypasses them and uses its own theme so to speak Therefore you can't use the `functions.php` file and add the custom PHP code. 
+
+Inside the builder there are **CODE BLOCK** elements in which you can write PHP code, but sometimes it will not be a suitable option (when you are adding the bunch of code, are customizing the plugin's templates etc).
 
 ### Assets 
 - This folder will contain the CSS and JS files which will be used on the website. If you are only using PHP or HTML template overrides you do not need to deal with this directory.
@@ -16,7 +18,7 @@ A helper plugin to customize the Oxygen Builder site.  Oxygen Builder's setup do
  
 Here an example code to load WooCommerce template overrides:
 
-```
+```php
 <?php
 
 /*************************************************
